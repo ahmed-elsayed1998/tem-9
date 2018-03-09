@@ -1,7 +1,191 @@
-div{
-    width: 200px;
-    height: 200px;
-    background: #DDd;
-    margin: auto;
-    padding: 10px
+/* start overraied bootstrap*/
+
+body {
+    height: 4000px
 }
+
+/*** start navbar */
+
+.navbar-default {
+    border: none;
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #FFF;
+    color: #7bce98;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #7bce98;
+}
+
+.btn-style {
+    color: #7bce98;
+    border-color: #7bce98;
+    width: 100px;
+    border-radius: 15px;
+
+}
+
+.btn-style:hover {
+    background-color: #7bce98;
+    color: #FFF;
+
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+}
+
+.navbar-brand .brand-style {
+    color: #7bce98;
+
+}
+
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+    padding-top: 10px
+}
+
+/*** end navbar */
+
+/*** start header */
+
+.slider .lead {
+    font-size: 18px
+}
+
+.slider .subscribe .form-control {
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+
+    padding: 20px;
+    font-size: 12px;
+
+}
+
+.slider .subscribe .btn {
+    border-radius: 0;
+
+    width: 150px;
+    background-color: #7bce98;
+    color: #FFF;
+}
+
+/*** end header */
+
+/* end overraied bootstrap*/
+
+/* start social nav*/
+
+.social-nav {
+    padding-top: 7px;
+    background-color: #000;
+}
+
+.social-nav ul li a {
+    color: #fff;
+}
+
+/* end social nav*/
+
+/*start header*/
+
+.slider {
+    background: url(../img/homebg.jpg) fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+    color: #FFF;
+    padding-top: 100px
+}
+
+.slider .subscribe {
+    padding-top: 60px;
+}
+
+/*end header*/
+
+/*start feature*/
+
+.feature {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.feature .text,
+.feature .img {
+    margin-bottom: 80px;
+}
+
+.feature .text {
+    color: #0006;
+}
+
+.feature .text h2 {
+    color: #00000080;
+}
+
+.feature .text span {
+    display: block;
+    margin-bottom: 15px
+}
+
+/*end feature*/
+
+/*start Services */
+
+.Service {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #ded6d630;
+}
+
+.Service .img {
+
+    width: 60px;
+    padding: 10px;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
+.Service .text h3 {
+    color: #555555ad;
+}
+
+.Service .text p {
+    color: #867f7f99
+}
+
+
+/*end Services */
+/*start price*/
+.price{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+/*end price*/
+
+
+
+
+
+
+
+
+
+
